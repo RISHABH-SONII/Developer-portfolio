@@ -1,0 +1,25 @@
+.homePageContainer {
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+  gap: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  @media screen and (max-width: 1024px) {
+    gap: 80px;
+  }
+  @media screen and (max-width: 768px) {
+    gap: 50px;
+  }
+}
+.description {
+  margin: 20px 0px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  color: rgba(179, 179, 179, 1);
+  font-size: 14px;
+  gap: 5px;
+}

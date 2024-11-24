@@ -1,0 +1,133 @@
+.letsTalk {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(59, 59, 59, 1);
+  border-radius: 25px;
+  background-color: rgba(18, 18, 18, 1);
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.firstRing {
+  position: absolute;
+  left: 0px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  text-align: center;
+  width: 60%;
+  gap: 20px;
+  @media screen and (max-width: 1024px) {
+    padding: 100px 35px;
+    width: 80%;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 120px 50px;
+    width: 100%;
+    gap: 10px;
+  }
+  @media screen and (max-width: 520px) {
+    padding: 170px 30px;
+  }
+}
+.heading {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 700;
+  font-family: Inter;
+  color: rgba(255, 255, 255, 1);
+  @media screen and (max-width: 1024px) {
+    font-size: 60px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 44px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 40px;
+  }
+  @media screen and (max-width: 320px) {
+    font-size: 32px;
+  }
+}
+.description {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: rgba(179, 179, 179, 1);
+
+  @media screen and (max-width: 1024px) {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.buttonList {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  @media screen and (max-width: 1024px) {
+    gap: 10px;
+  }
+  @media screen and (max-width: 320px) {
+    flex-direction: column;
+  }
+}
+.iconList {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  @media screen and (max-width: 1024px) {
+    gap: 10px;
+  }
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  border: 1px solid rgba(59, 59, 59, 1);
+  border-radius: 8px;
+  background-color: rgba(10, 10, 10, 1);
+  gap: 5px;
+  @media screen and (max-width: 768px) {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+  @media screen and (max-width: 480px) {
+    padding: 2px 4px;
+    font-size: 10px;
+  }
+  @media screen and (max-width: 320px) {
+    padding: 2px 4px;
+    font-size: 10px;
+  }
+}
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.icons {
+  font-size: 25px;
+}
+
+.secondRing {
+  position: absolute;
+  right: 0px;
+  bottom: -5px;
+  @media screen and (max-width: 1024px) {
+    bottom: -4px;
+  }
+}
